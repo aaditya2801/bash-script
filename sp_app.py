@@ -1,7 +1,12 @@
-import joblib 
-model = joblib.load('salary.pk1')
+import joblib
+model = joblib.load('bash-script/salary.pk1')
 
-exp = input("Enter experiance for salary to predict : ")
-predict = model.predict([[float(exp)]])
-
-print(predict)
+while True:
+    condition = input("\n \n Enter yes to continue : ")
+    if condition == "yes":
+        exp = input("\n \n Enter experiance for salary to predict : ")
+        predict = model.predict([[float(exp)]])
+    else:
+        exit()
+    print()
+    print(predict)
