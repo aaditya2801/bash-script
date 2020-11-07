@@ -18,6 +18,6 @@ echo ' ' >> /etc/hadoop/core-site.xml
 echo '<configuration>' >> /etc/hadoop/core-site.xml
 echo '<property>' >> /etc/hadoop/core-site.xml
 echo '<name>fs.default.name</name>' >> /etc/hadoop/core-site.xml
-echo '<value>hdfs://:9001</value>' >> /etc/hadoop/core-site.xml
+echo '<value>hdfs://15.207.51.189:9001</value>' >> /etc/hadoop/core-site.xml
 echo '</property>' >> /etc/hadoop/core-site.xml
 echo '</configuration>' >> /etc/hadoop/core-site.xml
