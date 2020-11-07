@@ -1,0 +1,15 @@
+- hosts: localhost
+
+  tasks:
+        - name: installing gedit on localhost using ansible
+          command: yum install gedit -y
+        
+        - name: installing httpd on localhost using ansible
+          command: yum install httpd -y
+        
+        - name: installing mysql on localhost using ansible
+          command: yum install mysql -y
+          
+        - name: installing tcpdump on localhost using ansible
+          command: yum install tcpdump -y
+          

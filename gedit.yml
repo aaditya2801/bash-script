@@ -1,5 +1,0 @@
-- hosts: localhost
-
-  tasks:
-        - name: installing gedit on localhost using ansible
-          command: yum install gedit -y
