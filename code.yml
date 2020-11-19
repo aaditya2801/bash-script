@@ -13,3 +13,6 @@
         - name: installing tcpdump on localhost using ansible
           command: yum install tcpdump -y
           
+        - name: installing jupyter notebook on localhost using ansible
+          command: pip3 install jupyterlab
+          
